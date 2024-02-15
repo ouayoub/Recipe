@@ -16,6 +16,15 @@ ul li {
 
 }
 
+.home a{
+ background-color:white;
+color: rgb(0, 34, 34);
+}
+.home a:hover{
+ background-color: rgb(0, 34, 34);
+ color:white;
+}
+
 .top-header {
  background-color: rgb(255, 255, 255);
  color: rgb(0, 0, 0);
@@ -125,7 +134,7 @@ start menu
 */
 
 .menu {
- background-color:  rgb(0, 34, 34);
+ background-color: rgb(0, 34, 34);
  font-family: 'Josefin Sans semibold', Courier, monospace;
  color: white;
 }
@@ -142,10 +151,12 @@ start menu
  border-radius: 5px;
 
 }
-.left-image img{
-border-top-right-radius: 70px;
+
+.left-image img {
+ border-top-right-radius: 70px;
 }
-.right-image{
+
+.right-image {
  border-top-left-radius: 70px;
 
 }
@@ -154,6 +165,13 @@ border-top-right-radius: 70px;
  border-radius: 5px;
  background-color: rgb(0, 19, 14);
  color: rgb(255, 255, 255);
+ opacity: 0.5;
+}
+
+.menu p:hover{
+ background-color: rgb(255, 255, 255);
+ color:rgb(0, 19, 14);
+ transition: ease 0.5s;
 }
 
 
